@@ -16,11 +16,9 @@ let yourName = 'Janelle'
     the function would return 'Joseph's Grocery List'.
 */
 
-// function setGroceryListTitle(x){
-//     let x = 'Grocery List';
-//     return x;
+function setGroceryListTitle(){
     
-// }
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -58,18 +56,14 @@ function removeItem(index){
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-// function checkGroceryCount(groceries){
-//     for(i = 0; i < groceries.length; i++)
-// {
-//     if(groceries.length > 5)
-//         {
-//         console.log("That looks like a big trip");
+// function checkGroceryCount(){
+//     for(let i = 0; i < groceries.length; i++){}
+//     if(groceries.length <5)
+//     alert('That looks like a big trip')}
+//     {else if(groceries.length =1)
+//         alert('1 item')}
+//         {else return groceries()
 //         }
-//     } else
-//             { if(groceries.length <= 5);
-                
-//             }
-//             return (groceries);
 // }
 
 

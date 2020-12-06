@@ -125,14 +125,14 @@ let me = {
   Return the answers array inside of the function.
 */
 
-// function bigOrSmall(arr){
-//   for(let i = 0; i < 100; i++){
-//     return 'big'
-//   } 
-//   for(answers j = 0; j >= 100; j++){
-//     answers.push('small');
-//     }
-//   }
+function bigOrSmall(arr){
+  if(arr < 100){
+    console.log('big')
+  } else 
+  console.log('small')
+  // return arr[]
+  //   }
+  }
 
 
 //////////////////PROBLEM 13////////////////////
@@ -196,9 +196,10 @@ let secondFunctionScope = ['secondFunction', 'functional', 'global'];
   Invoke the callback passing the first item in the array as an argument.
 */
 
-// function firstItem(arr, cb){
-//   cb(arr);
-// }
+function firstItem(arr, cb){
+  firstArr(arr);
+  callback.shift(item, arr);
+}
 
 
 //////////////////PROBLEM 16////////////////////
@@ -209,9 +210,17 @@ let secondFunctionScope = ['secondFunction', 'functional', 'global'];
   Otherwise, invoke the callback passing in false.
 */
 
-function isItBob(obj, cb){
+// function isItBob(obj, cb){
+// for(let i = 0; i < obj.length; i++){
+//   if(obj[i] % 2 === 0)
+// }   
+// return true;{
+//   else if(obj[i] % 2)
+// }
+// return false;
+// }
 
-}
+
 
 //////////////////PROBLEM 17////////////////////
 /*
@@ -263,7 +272,9 @@ function isItBob(obj, cb){
 //     model: 'Escape';
 //     year: 2015; 
 //   }
-//   if(year < 2018 ? true : false){
-//   }else
+//   if(year < 2018)
+//     alert(true){
+//   }else if(year > 2018)
+//       return(obj.year)
   
 // }
