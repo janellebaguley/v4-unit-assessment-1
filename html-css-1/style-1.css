@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+.head {
+    width: 100%;
+    box-sizing: content-box;
+    border: 1px solid black;
+    background-color: rgb(252, 140, 128);
+    padding: 50px 10px 10px 10px;
+    display: inline-block;
+}
+
+.box-1 {
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px dotted black;
+    margin: 10px 0 0 0;
+    padding: 20px 0 20px 20px;
+    display: inline-block;
+}
+.text-box {
+    padding: 0 10px 20px 200px;
+}
+.box-2 {
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px dotted black;
+    margin: 10px 0 0 0;
+    padding: 20px 20px 20px 20px;
+}
+.image-box {
+    justify-content: baseline;
+}
