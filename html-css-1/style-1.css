@@ -4,10 +4,11 @@ body {
 }
 .head {
     width: 100%;
-    box-sizing: content-box;
+    box-sizing: border-box;
     border: 1px solid black;
     background-color: rgb(252, 140, 128);
-    padding: 50px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
+    margin: 0 0 10px;
     display: inline-block;
 }
 
@@ -15,20 +16,16 @@ body {
     width: 100%;
     box-sizing: border-box;
     border: 5px dotted black;
-    margin: 10px 0 0 0;
-    padding: 20px 0 20px 20px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
     display: inline-block;
+    font-size: 16.5px;
 }
-.text-box {
-    padding: 0 10px 20px 200px;
-}
+
 .box-2 {
     width: 100%;
     box-sizing: border-box;
     border: 5px dotted black;
     margin: 10px 0 0 0;
     padding: 20px 20px 20px 20px;
-}
-.image-box {
-    justify-content: baseline;
 }

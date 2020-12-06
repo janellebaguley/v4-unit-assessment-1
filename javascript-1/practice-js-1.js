@@ -44,9 +44,12 @@ function trueOrFalse(data){
   If the number is even, return the string: 'the number is even'.
 */
 
-function oddChecker(num){
-  return num % 2 === 0 ?  true : false;
-}
+// function oddChecker(num){
+//   if(num % 2 === 0)
+//   console.log('the number is even');
+//   else
+//   console.log('the number is odd');
+// }
 
 
 
@@ -58,10 +61,10 @@ function oddChecker(num){
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
+let name = 'Janelle';
+love = 'loves concerts';
 function iLove(name, love){
-  let name = 'Janelle';
-
-
+  console.log('name + love')
 }
 
 
@@ -217,9 +220,17 @@ function isItBob(obj, cb){
   Then invoke the callback, passing in the doubled array.
 */
 
-function giveMeDoubles(numArr, cb){
+// function giveMeDoubles(numArr, cb){
+//   let numArr = [2, 4, 8, 10]
+//   for(let i = 0; i < numArr.length; i++){
+//     // console.log(i)
+//     // console.log(numArr[i])
+//     numArr[i] *= 2;
 
-}
+//   }
+  
+// }
+// giveMeDoubles()
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -246,6 +257,13 @@ function giveMeDoubles(numArr, cb){
   }
 */
 
-function carFactory(){
+// function carFactory(make, model, year){
+//   let carObj {
+//     make: 'Ford';
+//     model: 'Escape';
+//     year: 2015; 
+//   }
+//   if(year < 2018 ? true : false){
+//   }else
   
-}
+// }
